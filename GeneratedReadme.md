@@ -1,7 +1,8 @@
-Program Name:Readme Gen
-Github:David
-Contact Me:@@
-Description:TESTEST
-Licence:MIT
-Dependenciesundefined
-GithubDavid
+##Program Name: READMEGENERATOR
+Github: DAVIDC
+Contact Me: @@
+##Description: 
+TESTETTEST
+##Licence: 
+MIT
+Dependencies: undefined
