@@ -1,77 +1,33 @@
-const enquirer = require("enquirer");
 const fs = require("fs");
-
-// array of questions for user
-const questions = [
-    {
-        type: "input",
-        name: "Name",
-        message: "What is the name of this program?"
-    },
-
-    {
-        type: "input",
-        name: "GithubName",
-        message: "What is your Github Username?"
-    },
-
-    {
-        type: "input",
-        name: "email",
-        message: "What is your email address?"
-    },
-
-    {
-        type: "input",
-        name: "ProjectName",
-        message: "What is your project's name?"
-    },
-
-    {
-        type: "input",
-        name: "Description",
-        message: "Please write a short description of your project?"
-    },
-
-    {
-        type: "list",
-        name: "Licence",
-        message: "What kind of licence should your project have?",
-        choices: ["MIT", "APACHE 2.0", "BSD 3"]
-    },
-
-    {
-        type: "input",
-        name: "Dependencies",
-        message: "What command should be run to install dependencies?"
-    },
-
-    {
-        type: "input",
-        name: "Tests",
-        message: "What command shoould be run to run tests?"
-    },
-
-    {
-        type: "input",
-        name: "UsingRepo",
-        message: "What does the user need to know about using the repo?"
-    },
-
-    {
-        type: "input",
-        name: "ContributeRepo",
-        message: "What does the user need to know about contributing to the repo?"
-    }
-];
-
-// function to write README file
-function writeToFile(fileName, data) {
-}
+const questions = require("./readmequestions");
+const { prompt } = require('enquirer');
 
 // function to initialize program
-function init() {
+const init = async () => {
+    const response = await prompt(questions)
+    console.log(response)
 
+    //write answers to a file
+    writeToFile("./GeneratedReadme.md", response)
+};
+
+// function to write README file
+const writeToFile = (fileName, data) => {
+    let file = "Program Name:" + data.Name + "\n";
+
+    file = file + "Github:" + data.GithubName + "\n";
+
+    file = file + "Contact Me:" + data.email + "\n";
+
+    file = file + "Description:" + data.Description + "\n";
+
+    file = file + "Licence:" + data.Licence + "\n";
+
+    file = file + "Dependencies" + data.Depencies + "\n";
+
+    file = file + "Github" + data.GithubName + "\n";
+
+    fs.writeFileSync(fileName, file)
 }
 
 // function call to initialize program
