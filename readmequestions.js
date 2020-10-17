@@ -1,6 +1,12 @@
 // array of questions for user
 const questions = [
     {
+        name: "countries",
+        message: "How many countries are there in the world?",
+        choices: ['165', '175', '185', '195', '205'],
+    },
+
+    {
         type: "input",
         name: "Name",
         message: "What is the name of this program?"
@@ -22,12 +28,6 @@ const questions = [
         type: "input",
         name: "Description",
         message: "Please write a short description of your project?"
-    },
-
-    {
-        type: "list",
-        name: "Licence",
-        message: "What kind of licence should your project have? ex. MIT, APACHE 2.0, BSD 3"
     },
 
     {

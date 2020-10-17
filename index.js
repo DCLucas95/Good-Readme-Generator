@@ -13,17 +13,17 @@ const init = async () => {
 
 // function to write README file
 const writeToFile = (fileName, data) => {
-    let file = "Program Name: " + data.Name + "\n========\n";
+    let file = "## Program Name: " + data.Name + "\n========\n";
 
-    file = file + "##Description: " + "\n" + data.Description + "\n--------\n";
+    file = file + "# Description: " + "\n" + data.Description + "\n--------\n";
 
-    file = file + "Github: " + data.GithubName + "\n--------\n";
+    file = file + "# Github: " + "\n" + "https://github.com/" + data.GithubName + "\n--------\n";
 
-    file = file + "Contact Me: " + "\n" + data.email + "\n--------\n";
+    file = file + "# Contact Me: " + "\n" + data.email + "\n--------\n";
 
-    file = file + "##Licence: " + "\n" + data.Licence + "\n--------\n";
+    file = file + "# Licence: " + "\n" + data.Licence + "\n--------\n";
 
-    file = file + "Dependencies: " + "\n" + data.Depencies + "\n--------\n";
+    file = file + "# Dependencies: " + "\n" + data.Depencies + "\n--------\n";
 
     fs.writeFileSync(fileName, file)
 }
