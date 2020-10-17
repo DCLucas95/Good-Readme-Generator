@@ -1,8 +1,15 @@
-##Program Name: READMEGENERATOR
-Github: DAVIDC
+##Program Name: README
+--------
+Github: DC
+--------
 Contact Me: @@
+--------
 ##Description: 
-TESTETTEST
+TESTEST
+--------
 ##Licence: 
 MIT
-Dependencies: undefined
+--------
+Dependencies: 
+undefined
+--------

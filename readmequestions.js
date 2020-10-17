@@ -27,8 +27,7 @@ const questions = [
     {
         type: "list",
         name: "Licence",
-        message: "What kind of licence should your project have?",
-        choices: ["MIT", "APACHE 2.0", "BSD 3"]
+        message: "What kind of licence should your project have? ex. MIT, APACHE 2.0, BSD 3"
     },
 
     {
