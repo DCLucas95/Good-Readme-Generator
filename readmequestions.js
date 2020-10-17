@@ -1,10 +1,5 @@
 // array of questions for user
 const questions = [
-    {
-        name: "countries",
-        message: "How many countries are there in the world?",
-        choices: ['165', '175', '185', '195', '205'],
-    },
 
     {
         type: "input",
