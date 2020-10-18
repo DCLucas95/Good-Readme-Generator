@@ -11,26 +11,26 @@
 <li>Licence</li></ul>
 --------
 # Description: 
-Uses node js and enquirer to create a readme based off user input
+<p>Uses node js and enquirer to create a readme based off user input.</p>
 --------
 # How to Run: 
-Requires node.js and enquirer. Clone repo to personal device.
+<p>Requires node.js and enquirer.</p>
 --------
 # Dependencies: 
-npm i
+<p>npm i</p>
 --------
 # How to Contribute: 
-Create a fork request or raise an issue
+<p> Create a fork request or raise an issue to request to contribute</p>
 --------
 # Tests: 
-none
+<p>none</p>
 --------
 # Github: 
-https://github.com/DCLucas95
+<p> https://github.com/DCLucas95</p>
 --------
 # Contact Me with Questions: 
-davidclucas95@gmail.com
+<p>davidclucas95@gmail.com</p>
 --------
 # Licence: 
-MIT
+<p>MIT</p>
 --------

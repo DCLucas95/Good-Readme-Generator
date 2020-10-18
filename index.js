@@ -20,21 +20,21 @@ const writeToFile = (fileName, data) => {
 
         file = file + "# Table of Contents:" + "<ul>" + "\n" + "<li>Description</li>" + "\n" + "<li>How to Run</li>" + "\n" + "<li>Dependencies</li>" + "\n" + "<li>How to Contribute</li>" + "\n" + "<li>Tests</li>" + "\n" + "<li>Github</li>" + "\n" + "<li>Contact Me</li>" + "\n" + "<li>Licence</li>" + "</ul>" + "\n--------\n";
 
-        file = file + "# Description: " + "\n" + data.Description + "\n--------\n";
+        file = file + "# Description: " + "\n" + "<p>" + data.Description + "</p>" + "\n--------\n";
 
-        file = file + "# How to Run: " + "\n" + data.UsingRepo + "\n--------\n";
+        file = file + "# How to Run: " + "\n" + "<p>" + data.UsingRepo + "</p>" + "\n--------\n";
 
-        file = file + "# Dependencies: " + "\n" + data.Dependencies + "\n--------\n";
+        file = file + "# Dependencies: " + "\n" + "<p>" + data.Dependencies + "</p>" + "\n--------\n";
 
-        file = file + "# How to Contribute: " + "\n" + data.ContributeRepo + "\n--------\n";
+        file = file + "# How to Contribute: " + "\n" + "<p>" + data.ContributeRepo + "</p>" + "\n--------\n";
 
-        file = file + "# Tests: " + "\n" + data.Tests + "\n--------\n";
+        file = file + "# Tests: " + "\n" + "<p>" + data.Tests + "</p>" + "\n--------\n";
 
-        file = file + "# Github: " + "\n" + "https://github.com/" + data.GithubName + "\n--------\n";
+        file = file + "# Github: " + "\n" + "<p> https://github.com/" + data.GithubName + "</p>" + "\n--------\n";
 
-        file = file + "# Contact Me with Questions: " + "\n" + data.email + "\n--------\n";
+        file = file + "# Contact Me with Questions: " + "\n" + "<p>" + data.email + "</p>" + "\n--------\n";
 
-        file = file + "# Licence: " + "\n" + data.Licence + "\n--------\n";
+        file = file + "# Licence: " + "\n" + "<p>" + data.Licence + "</p>" + "\n--------\n";
 
         fs.writeFileSync(fileName, file)
     }
