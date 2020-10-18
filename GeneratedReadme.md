@@ -1,16 +1,25 @@
-## Program Name: Readme generator
+## Program Name: Readme Generator
+--------
+# Table of Contents:
+-Description
+-How to Run
+-Dependencies
+-How to Contribute
+-Tests
+-Github-Contact Me
+-Licence
 --------
 # Description: 
 Uses node js and enquirer to create a readme based off user input
 --------
 # How to Run: 
-Requires node.js and enquirer. Clone repo to personal device
+Requires node.js and enquirer. Clone repo to personal device.
 --------
 # Dependencies: 
 npm i
 --------
 # How to Contribute: 
-create a fork request or raise an issue
+Create a fork request or raise an issue
 --------
 # Tests: 
 none

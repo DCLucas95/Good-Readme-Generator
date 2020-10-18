@@ -18,6 +18,8 @@ const writeToFile = (fileName, data) => {
     try {
         let file = "## Program Name: " + data.Name + "\n--------\n";
 
+        file = file + "# Table of Contents:" + "\n" + "-Description" + "\n" + "-How to Run" + "\n" + "-Dependencies" + "\n" + "-How to Contribute" + "\n" + "-Tests" + "\n" + "-Github" + "-Contact Me" + "\n" + "-Licence" + "\n--------\n";
+
         file = file + "# Description: " + "\n" + data.Description + "\n--------\n";
 
         file = file + "# How to Run: " + "\n" + data.UsingRepo + "\n--------\n";
