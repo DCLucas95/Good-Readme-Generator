@@ -9,6 +9,12 @@ const questions = [
 
     {
         type: "input",
+        name: "Description",
+        message: "Please write a short description of your project?"
+    },
+
+    {
+        type: "input",
         name: "GithubName",
         message: "What is your Github Username?"
     },
@@ -21,8 +27,8 @@ const questions = [
 
     {
         type: "input",
-        name: "Description",
-        message: "Please write a short description of your project?"
+        name: "UsingRepo",
+        message: "What does the user need to know about using the repo?"
     },
 
     {
@@ -33,21 +39,21 @@ const questions = [
 
     {
         type: "input",
+        name: "ContributeRepo",
+        message: "What does the user need to know about contributing to the repo?"
+    },
+
+    {
+        type: "input",
         name: "Tests",
         message: "What command should be run to run tests?"
     },
 
     {
         type: "input",
-        name: "UsingRepo",
-        message: "What does the user need to know about using the repo?"
+        name: "Licence",
+        message: "What Licence would you like to use? eg. MIT, APACHE, OSL"
     },
-
-    {
-        type: "input",
-        name: "ContributeRepo",
-        message: "What does the user need to know about contributing to the repo?"
-    }
 ];
 
 module.exports = questions
