@@ -1,13 +1,14 @@
 ## Program Name: Readme Generator
 --------
-# Table of Contents:
--Description
--How to Run
--Dependencies
--How to Contribute
--Tests
--Github-Contact Me
--Licence
+# Table of Contents:<ul>
+<li>Description</li>
+<li>How to Run</li>
+<li>Dependencies</li>
+<li>How to Contribute</li>
+<li>Tests</li>
+<li>Github</li>
+<li>Contact Me</li>
+<li>Licence</li></ul>
 --------
 # Description: 
 Uses node js and enquirer to create a readme based off user input
