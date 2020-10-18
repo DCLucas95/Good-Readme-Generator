@@ -10,7 +10,7 @@
 <li>Licence</li></ul>
 
 ## Description: 
-<p>This program uses node js and enquirer to create a readme based off user answers to the enquirer questions and puts them in an md file.</p>
+<p>This program uses node js and enquirer to create a readme based off user answers to the enquirer questions and puts them in an .md file</p>
 
 ## How to Run: 
 <p>To use this application. Clone the repo to your local device. Note you must have node.js</p>
@@ -22,13 +22,13 @@
 <p>To contribute create a fork request or raise an issue to request to contribute</p>
 
 ## Tests: 
-<p>npm i</p>
+<p>none</p>
 
 ## Github: 
 <p> https://github.com/DCLucas95</p>
 
 ## Contact Me with Questions: 
-<p>https://github.com/DCLucas95</p>
+<p>davidclucas95@gmail.com</p>
 
 ## Licence: 
 <p>MIT</p>
